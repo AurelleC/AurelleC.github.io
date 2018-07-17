@@ -1,0 +1,55 @@
+html {
+    background-image:  url("bg_2.jpg"), linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
+    -webkit-font-smoothing: antialiased; 
+}
+hr{border-color:white;}
+body {
+    background: ;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: yellow;
+    font-family: monospace;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2em 2em 4em;
+}
+
+h1, h2, h3 {
+    color: cyan;
+    font-weight: 6;
+    line-height: 1.5;
+}
+
+h1 {     text-align: center;
+    
+}
+
+h2 {
+    margin-top: 1.3em;
+    font-size: 15px }
+        
+h3{ 
+    font-size: 40px}
+}
+
+a {
+    color: #0083e8;
+}
+
+b, strong {
+    font-weight: 400;
+}
+
+
+
+img {
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    background: transparent;
+    border: 10px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display: block;
+    margin: 1.3em auto;
+    max-width: 95%;
+}
+
